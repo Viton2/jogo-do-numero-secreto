@@ -3,6 +3,7 @@
 //
 // let paragrafo = document.querySelector("p");
 // paragrafo.innerHTML = "Escolha um numero entre 1 e 10";
+
 let listaDeNumerosSorteados = [];
 let numeroLimite = 10;
 let numeroSecreto = parseInt(Math.random() * numeroLimite + 1);
