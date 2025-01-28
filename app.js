@@ -23,7 +23,7 @@ function exibitTextoNaTela(tag, texto){
 }
 
 exibitTextoNaTela("h1", "Jogo do numero secreto");
-exibitTextoNaTela("p", "Escolha um numero entre 1 e 10");
+exibitTextoNaTela("p", "Descubra um numero entre 1 e 10");
 
 function gerarNumeroAleatorio(){
     let numeroEscolhido = parseInt(Math.random() * numeroLimite + 1);
